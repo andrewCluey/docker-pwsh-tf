@@ -1,1 +1,1 @@
-./hello.ps1 -name $ENV:test
+./hello.ps1 -name $ENV:name

@@ -1,6 +1,6 @@
 # Alpine image with powershell core and Terraform installed.
 
-FROM mcr.microsoft.com/powershell:7.0.0-preview.6-alpine-3.8 as base
+FROM mcr.microsoft.com/powershell:7.0.0-rc.2-alpine-3.9 as base
 
 RUN mkdir -p /scripts
 WORKDIR /scripts
